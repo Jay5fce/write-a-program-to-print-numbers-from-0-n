@@ -1,0 +1,14 @@
+class NumberPrinter:
+    def __init__(self, n):
+        self.n = n
+
+    def print_numbers(self):
+        for num in range(self.n + 1):
+            print(num)
+
+def main():
+    number_printer = NumberPrinter(10)
+    number_printer.print_numbers()
+
+if __name__ == "__main__":
+    main()
